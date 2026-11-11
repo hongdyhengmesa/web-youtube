@@ -1,0 +1,11 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+dob = int(input("Enter your dob(ex.1000->2000): "))
+place_of_birth = input("Enter your place of birth(ex.phnom penh): ")
+
+print("======================= [Information User] =======================")
+print("= Your name is: ", name)
+print("= Your age Is: ", age)
+print("= Your dob is: ", dob)
+print("= Your pob is: ", place_of_birth)
+print("======================= [End Information User] =======================")
