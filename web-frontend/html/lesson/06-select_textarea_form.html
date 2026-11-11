@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="country">Country</label>
+    <select name="country" id="coun">
+        <option value="" disabled>Select your country</option>
+        <option value="cambodia" selected>Cambodia</option>
+        <option value="china">China</option>
+        <option value="usa">USA</option>
+    </select>
+
+    <label for="technology">Choose a technology</label>
+    <select name="technology" id="technology">
+
+        <optgroup label="frontend">
+            <option value="html">Html</option>
+            <option value="css">Css</option>
+            <option value="js">Javascript</option>
+        </optgroup>
+
+        <optgroup label="backend">
+            <option value="nest">NestJs</option>
+            <option value="laravel">Laravel</option>
+            <option value="spring-boot">Spring Boot</option>
+        </optgroup>
+
+    </select>
+
+    <br><br>
+
+    <label for="skill">Choose your skills</label>
+    <select name="skills" id="skills" multiple>
+        <option value="python">Python</option>
+        <option value="ruby">Ruby</option>
+        <option value="vue">VueJs</option>
+        <option value="postgres">PostGreSQL</option>
+    </select>
+
+    <br><br>
+
+    <label for="message">Message</label>
+    <textarea 
+    name="message" 
+    id="message" 
+    placeholder="Write your message here..."
+    rows="5" cols="15"
+    minlength="10"
+    maxlength="200"
+    required></textarea>
+    <textarea disabled>This fields is disabled.</textarea>
+    <textarea readonly>This text can't changes.</textarea>
+
+</body>
+</html>

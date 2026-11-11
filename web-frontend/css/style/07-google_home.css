@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+}
+
+.main{
+    margin-top: 100px;
+}
+
+.img-logo{
+    display: block;
+    width: 300px;
+}
+
+.search{
+    display: block;
+    width: 400px;
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: yellow; /* red, blue, yello, etc */
+    color: blue; /* red, blue, yellow, etc */
+    font-size: 20px; /* 0px - 100px and beyond */
+    font-weight: lighter; /* lighter, normal, bold */
+    text-align: right; /* left, center or right */
+    margin-top: 5px; /* From 0px and upwards */
+}
